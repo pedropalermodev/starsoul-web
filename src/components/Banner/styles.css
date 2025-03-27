@@ -1,0 +1,13 @@
+/* banner--hero */
+
+.banner--hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 60px 60px 60px;
+    color: #fff;
+    background-color: #403680;
+    /* background-image: linear-gradient( #0e1c41 , #0e1c41 , #0e1c41 , #1d2d58 , #6274b6 ); */
+}
+
+/* - - - - - - -*/

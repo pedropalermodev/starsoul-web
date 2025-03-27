@@ -1,0 +1,18 @@
+:root {
+    --primary-color: #3B2A7B;   /* Azul profundo (mantido) */
+    --second-color: #5A5692;   /* Azul intermediário mais equilibrado */
+    --third-color: #2E2566; /* Roxo escuro (mantido, mas talvez suavizar) */
+    --fourth-color: #8D96C5 ; /* Roxo escuro (mantido, mas talvez suavizar) */
+    --fifth-color: #C5A3E6 ; /* Roxo escuro (mantido, mas talvez suavizar) */
+    --accent-color: #FFD37F;   /* Laranja suave para contraste */
+    --default-width-max: 1323px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+    zoom: 0.98;
+    font-size: 16px;
+}
