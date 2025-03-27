@@ -9,8 +9,16 @@
 
         &__container {
             &-content {
-                justify-content: start ;
                 gap: 150px;
+
+
+                &-box:first-child {
+                }
+
+
+                &-box:last-child {
+                    width: 80%;
+                }
 
                 &-box {
 
@@ -18,15 +26,32 @@
                     &-aside {
                         display: flex;
                         flex-direction: column;
+                        width: 250px;
                         gap: 10px;
+                        position: fixed;
+                        top: 125px;
+                        border: solid 1px #000;
+                        border-radius: 20px;
+                        padding: 20px;
 
-
+                        & > a {
+                            color: #000;
+                        }
                     }
 
                     &-info {
+
+                        &--title {
+                            font-size: 20px;
+                        }
+
+                        & > p {
+                            font-size: 18px;
+                        }
                         
                     }
                 }
             }
         }
 }
+
