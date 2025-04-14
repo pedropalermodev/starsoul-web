@@ -1,0 +1,85 @@
+
+.accessmanagement__content {
+    width: 100%;
+}
+
+.accessmanagement__table{
+    width: 100%;
+
+    &-thead {
+    
+        &--th {
+        text-align: left;
+        font-weight: 500;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 10px;
+        }
+    } 
+
+    &-tbody {
+        &-tr {
+            border: 1px solid #000;
+            padding: 20px;
+
+            &--td {
+                padding: 20px 0 20px 10px;
+            }
+
+            &-td {
+
+                &-actions{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 20px 0;
+
+
+                    &--button {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border: none;
+                        width: 40px;
+                        height: 30px;
+                    }
+
+                    &--button:first-child {
+                        border-radius: 20px 0px 0px 20px;
+                    }
+                    &--button:last-child {
+                        border-radius: 0px 20px 20px 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.status {
+    border-radius: 20px;
+    padding: 5px 15px;
+}
+
+.status-ativo {
+    background-color: #9fdbba;
+}
+
+.status-inativo {
+    background-color: #db9f9f;
+}
+
+.profile {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+}
+
+.profile-admin {
+    background-color: #003874;
+}
+
+.profile-user {
+    background-color: #575172;
+}

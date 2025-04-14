@@ -1,7 +1,7 @@
 .home__container:first-child {
         display: flex;
         justify-content: center;
-        background: url('../../assets/home/main-background.svg') center center / cover no-repeat;
+        background: url('../../../assets/home/main-background.svg') center center / cover no-repeat;
         margin-top: 90px;
         height: 950px;
 }
@@ -14,7 +14,7 @@
 
 .home__container:nth-child(4) {
     display: flex;
-    background: url(../../assets/home/Frame.svg);
+    background: url(../../../assets/home/Frame.svg);
     justify-content: center;
 }
 

@@ -1,0 +1,36 @@
+.ppetdu__container {
+    flex-direction: column;
+}
+
+.ppetdu__container-content {
+    flex-direction: column;
+    max-width: 1350px;
+    width: 100%;
+    align-items: baseline !important;
+    gap: 30px;
+    padding: 50px 0;
+}
+
+.ppetdu__container-content > h1 {
+    font-size: 20px;
+    color: rgb(20, 67, 155);
+}
+
+.ppetdu__container-content > ul > li {
+    list-style: none;
+}
+
+.line {
+    border: 1px outset rgb(20, 67, 155);
+    width: 100%;
+}
+
+.line2 {
+    border: 1px solid rgba(211, 192, 255, 0.486);
+    width: 100%;
+}
+
+.ppetdu__container-content > h1, 
+.ppetdu__container-content > h2 {
+    color: #333;
+}

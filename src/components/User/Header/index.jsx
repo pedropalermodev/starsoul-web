@@ -3,7 +3,7 @@ import './styles.scss'
 import { Link } from 'react-router-dom'
 
 // Images
-import starSoulLogo from '../../assets/branding/starsoul-combinationmark-white.png';
+import starSoulLogo from '../../../assets/branding/starsoul-combinationmark-white.png';
 
 function Header() {
 

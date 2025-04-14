@@ -1,29 +1,29 @@
 import './styles.scss';
 
 // Components
-import Container from '../../components/Container';
-import Content from '../../components/Content';
-import Button from '../../components/Button'
+import Container from '../../../components/User/Container';
+import Content from '../../../components/User/Content';
+import Button from '../../../components/User/Button'
 
 
 // Images
-import Phone from '../../assets/home/phone.png'
-import Image1 from '../../assets/home/image1.png'
-import Image2 from '../../assets/home/image2.png'
-import Image3 from '../../assets/home/image3.png'
-import Image4 from '../../assets/home/image4.png'
+import Phone from '../../../assets/home/phone.png'
+import Image1 from '../../../assets/home/image1.png'
+import Image2 from '../../../assets/home/image2.png'
+import Image3 from '../../../assets/home/image3.png'
+import Image4 from '../../../assets/home/image4.png'
 
-import ImageSection1 from '../../assets/home/image-section-1.png'
-import ImageSection2 from '../../assets/home/image-section-2.png'
-import ImageSection3 from '../../assets/home/image-section-3.png'
+import ImageSection1 from '../../../assets/home/image-section-1.png'
+import ImageSection2 from '../../../assets/home/image-section-2.png'
+import ImageSection3 from '../../../assets/home/image-section-3.png'
 
-import VerticalLine from '../../assets/home/vertical-line-section.png'
-import Test from '../../assets/home/test.svg'
-import SectionImage from '../../assets/home/section-image1.png'
+import VerticalLine from '../../../assets/home/vertical-line-section.png'
+import Test from '../../../assets/home/test.svg'
+import SectionImage from '../../../assets/home/section-image1.png'
 
-import downloadAppleStore from '../../assets/midias/download-on-appleStore_versionWhite.svg';
-import downloadPlayStore from '../../assets/midias/download-on-googlePlay_versionWhite.svg';
-import starsoulPhoneApp from '../../assets/home/starsoul-phone-app.svg'
+import downloadAppleStore from '../../../assets/midias/download-on-appleStore_versionWhite.svg';
+import downloadPlayStore from '../../../assets/midias/download-on-googlePlay_versionWhite.svg';
+import starsoulPhoneApp from '../../../assets/home/starsoul-phone-app.svg'
 
 
 function Home(){

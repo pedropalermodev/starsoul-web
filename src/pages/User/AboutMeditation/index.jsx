@@ -1,7 +1,7 @@
 import './styles.scss';
 
-import Container from '../../components/Container'
-import Content from '../../components/Content'
+import Container from '../../../components/User/Container'
+import Content from '../../../components/User/Content'
 
 
 function AboutMeditation(){

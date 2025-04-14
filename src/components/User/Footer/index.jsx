@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom'
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 // Images
-import starSoulIcon from '../../assets/branding/starsoul-lettermark-white.png';
-import downloadOnAppStore from '../../assets/midias/download-on-appleStore_versionWhite.svg';
-import downloadOnPlayStore from '../../assets/midias/download-on-googlePlay_versionWhite.svg';
+import starSoulIcon from '../../../assets/branding/starsoul-lettermark-white.png';
+import downloadOnAppStore from '../../../assets/midias/download-on-appleStore_versionWhite.svg';
+import downloadOnPlayStore from '../../../assets/midias/download-on-googlePlay_versionWhite.svg';
 
 function Footer() {
     return(
@@ -41,7 +41,7 @@ function Footer() {
                         <div className="footer__content-main-box--line"></div>
                         <Link className="footer__content-main-box--link" to="/">Inicial</Link>
                         <Link className="footer__content-main-box--link" to="/contact">Contato</Link>
-                        <Link className="footer__content-main-box--link" to="/faq">Políticas de Privacidade e Termos de Uso</Link>
+                        <Link className="footer__content-main-box--link" to="/privacy-policy-and-terms-of-use">Políticas de Privacidade e Termos de Uso</Link>
                         <Link className="footer__content-main-box--link" to="/console/auth">Entre como administrador</Link>
                     </div>
                     <div className="footer__content-main-box">
