@@ -50,6 +50,10 @@
                     &--button:last-child {
                         border-radius: 0px 20px 20px 0px;
                     }
+
+                    &--button:hover {
+                        background-color: #ddd;
+                    }
                 }
             }
         }
@@ -59,6 +63,7 @@
 .status {
     border-radius: 20px;
     padding: 5px 15px;
+
 }
 
 .status-ativo {
@@ -77,9 +82,9 @@
 }
 
 .profile-admin {
-    background-color: #003874;
+    background-color: #00387494;
 }
 
 .profile-user {
-    background-color: #575172;
+    background-color: #000000ab;
 }
