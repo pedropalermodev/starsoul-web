@@ -1,6 +1,71 @@
 
+.page-indicator {
+    display: flex;
+    gap: 8px;
+    font-size: 18px;
+    color: #666666;
+    background-color: #63789e44;
+    width: max-content;
+    padding: 5px 20px;
+    border-radius: 20px;
+
+    & > i {
+        font-size: 18px;
+    }
+}
+
+
 .accessmanagement__content {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
     width: 100%;
+}
+
+.accessmanagement__management-bar {
+    display: flex;
+    justify-content: space-between;
+
+    &--search {
+        padding:10px;
+        border-radius: 10px;
+        border: 1px solid #000;
+        width: 80%;
+
+        &:focus {
+            border: 2px solid rgb(46, 46, 129);
+            outline: none;
+        }
+    }
+
+    &--button {
+        display: flex;
+        align-items: center;
+        padding:10px;
+        gap: 15px;
+        border-radius: 10px;
+        border: none;
+        opacity: 0.8;
+        cursor: pointer;
+
+        &:hover {
+            opacity: 1;
+            transition: .2s;
+            -webkit-box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
+            -moz-box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
+            box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
+        }
+    }
+
+    &--add-access {
+        background-color: #0e1244d2;
+        color: #fff;
+    }
+
+    &--edit-access {
+        background-color: #831212d3;
+        color: #fff;
+    }
 }
 
 .accessmanagement__table{
@@ -14,6 +79,9 @@
         border: 1px solid #ddd;
         border-radius: 10px;
         padding: 10px;
+        // -webkit-box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
+        // -moz-box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
+        // box-shadow: 0px 7px 14px -7px rgba(18,27,125,1);
         }
     } 
 
@@ -42,6 +110,7 @@
                         border: none;
                         width: 40px;
                         height: 30px;
+                        cursor: pointer;
                     }
 
                     &--button:first-child {
