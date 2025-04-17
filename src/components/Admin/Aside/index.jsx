@@ -54,7 +54,7 @@ function Aside() {
                     </div>
                 </div>
                 <Link to={'/'} className='aside__profile-logout'>
-                    <i class="bi bi-box-arrow-left"></i>
+                    <i className="bi bi-box-arrow-left"></i>
                     Logout
                 </Link>
             </div>

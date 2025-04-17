@@ -11,7 +11,7 @@ function Header() {
                 <p>Bem vindo(a) de volta <span>Pedro!</span></p>
             </div>
             <div className='settings'>
-                <i class="bi bi-gear-wide-connected"></i>
+                <i className="bi bi-gear-wide-connected"></i>
             </div>
         </div>
     )
